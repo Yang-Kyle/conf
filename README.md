@@ -1,5 +1,3 @@
-<iframe width="640" height="640" src="https://cybermap.kaspersky.com/cn/widget/dynamic/dark" frameborder="0">
-
 # Bug.n
 > WM Write by AHK
 ## Basic
