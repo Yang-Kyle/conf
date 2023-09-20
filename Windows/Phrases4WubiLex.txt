@@ -1,8 +1,8 @@
 /* %0D回车 %0A换行 %20空格 %09制表符 */
 /* Email */
-zdk,yangkyle1024@duck.com	
-zfm,yangkyle1024@foxmail.com
-zqq,3227379689@qq.com
+zdk	yangkyle1024@duck.com	
+zfm	yangkyle1024@foxmail.com
+zqq	3227379689@qq.com
 /* Symbol */
 zk	『』
 zsj	%yy%.%MM%.%dd% %HH%:%mm%:%ss%
@@ -15,4 +15,4 @@ zx	下次再聊吧
 /* IP */
 miwifi	http://192.168.31.1/
 /* Cantonese */
-zyrqy 嘅
+zyrqy	嘅
