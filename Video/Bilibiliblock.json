@@ -1,0 +1,17 @@
+[
+	{
+		"type": 1,
+		"filter": "/盲猜|记住这个|前方.*高能/",
+		"opened": true
+	},
+		{
+		"type": 1,
+		"filter": "/(打卡|名场面|厚礼蟹)|(牛逼|666)/",
+		"opened": true
+	},
+	{
+		"type": 1,
+		"filter": "/word|穿越火线/",
+		"opened": true
+	}
+]
