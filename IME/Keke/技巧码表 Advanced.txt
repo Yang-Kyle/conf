@@ -34,8 +34,8 @@ $ddcmd(run(calc.exe),【计算器】)	;CMDrun
 $ddcmd(run(chrome.exe),【Chrome】)	;CMDrun
 $ddcmd(set([-DME设置-],显示码表词语码长=4),-Phrase 【字词模式】 )	;CMDchmod
 $ddcmd(set([-DME设置-],显示码表词语码长=5),【-Word 单字模式】 )	;CMDchmod
-$ddcmd($ddcmd(set([-设置-],=),),-Set)	;CMDpattern
 $ddcmd($ddcmd(run(.exe),),-Run)	;CMDpattern
+$ddcmd($ddcmd(set([-设置-],=),),-Set)	;CMDpattern
 $ddcmd($ddcmdnewkey;CMD,,-NewKey)	;CMDpattern
 $ddcmd($ddcmd(,),-ReName)	;CMDpattern
 $ddcmd(run(bilibili.exe),# Bilibili )	bilibili
@@ -50,6 +50,7 @@ $ddcmd(newkey(;CMDchmod),【输入】)	chmod
 日期	date
 $ddcmd(newkey(;CMDdate),【输出日期】)	date
 $ddcmd(run(discord.exe),# Discord )	discord
+$ddcmd(run(dism++.exe),# Dism++ )	dismpp
 $ddcmd(run(geek.exe),# Geek Installer )	geek
 $ddcmd(run(genact.exe),# GenAct )	genact
 $ddcmd(run(githubdesktop.exe),# Github Desktop )	githubDesktop
@@ -59,6 +60,9 @@ $ddcmd(newkey(;CMDhelp),【可可帮助】)	help
 $ddcmd(run(idea.exe),# Intellij IDEA )	idea
 $ddcmd(run(D:\UsrDir\DeskTop\Repos\MyPortFolio\Java\JAVA.md),# Java )	java
 $ddcmd(run(http://www.suke.kim/),# 可可)	keke
+$ddcmd(run(notion.exe),# Notion )	notion
+$ddcmd(run(obsidian.exe), # Obsidian )	obsidian
+$ddcmd(run(obs.exe),# Obs )	obs
 $ddcmd(run(PowerShell.exe),# Posh )	posh
 $ddcmd(newkey(;CMDpattern),【命令模板】)	pattern
 $ddcmd(newkey(;CMDrun),【快捷运行程序】)	run
@@ -67,17 +71,19 @@ $ddcmd(newkey(chmod),Chmod)	remind
 $ddcmd(newkey(pattern),Pattern)	remind
 $ddcmd(newkey(status),Status)	remind
 $ddcmd(run(D:\UsrDir\DeskTop\Repos),# Repos )	repos
-$ddcmd(run(steam.exe),# Steam++ )	steampp
 $ddcmd(run(steam.exe),# Steam )	steam
 $ddcmd(newkey(;CMDstatus),【状态】)	status
+$ddcmd(run(steam++.exe),# Steam++ )	steampp
 时间	time#删
 $ddcmd(newkey(;CMDtime),【输出时间】)	time
 $ddcmd(run(telegram.exe),# Telegram )	telegram
 $ddcmd(run(utools.exe),# Utools )	utools
+$ddcmd(run(vocaloid.exe), # Vocaloid )	vocaloid
 $ddcmd(<date.z>)	week
 $ddcmd(run(windowsterminal.exe),# Windows Terminal )	winTmn
 $ddcmd(run(wingetui.exe),# Winget UI )	winGet
 $ddcmd(run(waterfox.exe),# Waterfox )	waterfox
+$ddcmd(run(wechat.exe),# WeChat )	wechat
 $ddcmd(newkey(zys),【圆和点数字：①②③⒛】)	zfh
 $ddcmd(newkey(zym),【圆圈字母：ⒶⒷⓩ】)	zfh
 $ddcmd(newkey(zks),【括号数字：⑴⑵⑶】)	zfh
