@@ -1,11 +1,11 @@
 ﻿---config@码表分类=主码-用户码表
 ---config@码表别名=用户自定义
-$ddcmd(YangKyle1024@Gmail.com,-Gmail)	;CMDmail
-$ddcmd(YangKyle1024@ProTon.me,-ProTon)	;CMDmail
-$ddcmd(YangKyle1024@FoxMail.com,-FoxMail)	;CMDmail
-$ddcmd(3227379689@QQ.com,-QQ)	;CMDmail
-$ddcmd(YangKyle1024@OutLook.com,-OutLook)	;CMDmail
-$ddcmd(YangKyle1024@iCloud.com,-iCloud)	;CMDmail
+$ddcmd(YangKyle1024@iCloud.com,iCloud )	;CMDmail
+$ddcmd(YangKyle1024@ProTon.me,ProTon )	;CMDmail
+$ddcmd(YangKyle1024@OutLook.com,OutLook )	;CMDmail
+$ddcmd(YangKyle1024@Gmail.com,Gmail )	;CMDmail
+$ddcmd(YangKyle1024@FoxMail.com,FoxMail )	;CMDmail
+$ddcmd(YangKyle1024@QQ.com,QQ )	;CMDmail
 助眠	eghn
 无障碍	fbdj
 水狐	iiqt
