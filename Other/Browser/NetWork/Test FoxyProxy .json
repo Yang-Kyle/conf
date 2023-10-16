@@ -1,0 +1,686 @@
+{
+  "logging": {
+    "size": 100,
+    "active": false
+  },
+  "qan3qm1697450462397": {
+    "type": 2,
+    "color": "#39c5bb",
+    "title": "DNS",
+    "active": true,
+    "address": "216.169.136.254",
+    "port": 53,
+    "proxyDNS": false,
+    "username": "",
+    "password": "",
+    "whitePatterns": [
+      {
+        "title": "all URLs",
+        "pattern": "*",
+        "type": 1,
+        "protocols": 1,
+        "active": true
+      }
+    ],
+    "blackPatterns": [
+      {
+        "title": "local hostnames (usually no dots in the name). Pattern exists because 'Do not use this proxy for localhost and intranet/private IP addresses' is checked.",
+        "pattern": "^(?:[^:@/]+(?::[^@/]+)?@)?(?:localhost|127\\.\\d+\\.\\d+\\.\\d+)(?::\\d+)?(?:/.*)?$",
+        "type": 2,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "local subnets (IANA reserved address space). Pattern exists because 'Do not use this proxy for localhost and intranet/private IP addresses' is checked.",
+        "pattern": "^(?:[^:@/]+(?::[^@/]+)?@)?(?:192\\.168\\.\\d+\\.\\d+|10\\.\\d+\\.\\d+\\.\\d+|172\\.(?:1[6789]|2[0-9]|3[01])\\.\\d+\\.\\d+)(?::\\d+)?(?:/.*)?$",
+        "type": 2,
+        "protocols": 1,
+        "active": true
+      },
+      {
+        "title": "localhost - matches the local host optionally prefixed by a user:password authentication string and optionally suffixed by a port number. The entire local subnet (127.0.0.0/8) matches. Pattern exists because 'Do not use this proxy for localhost and intranet/private IP addresses' is checked.",
+        "pattern": "^(?:[^:@/]+(?::[^@/]+)?@)?[\\w-]+(?::\\d+)?(?:/.*)?$",
+        "type": 2,
+        "protocols": 1,
+        "active": true
+      }
+    ],
+    "pacURL": "",
+    "index": 9007199254740990
+  },
+  "7hrcb1697456910383": {
+    "type": 2,
+    "address": "216.169.136.254",
+    "port": 5522,
+    "color": "#c99656",
+    "active": true,
+    "title": "5522",
+    "whitePatterns": [
+      {
+        "title": "all URLs",
+        "active": true,
+        "pattern": "*",
+        "type": 1,
+        "protocols": 1
+      }
+    ],
+    "blackPatterns": [
+      {
+        "title": "local hostnames (usually no dots in the name). Pattern exists because 'Do not use this proxy for localhost and intranet/private IP addresses' is checked.",
+        "pattern": "^(?:[^:@/]+(?::[^@/]+)?@)?(?:localhost|127\\.\\d+\\.\\d+\\.\\d+)(?::\\d+)?(?:/.*)?$",
+        "active": true,
+        "type": 2,
+        "protocols": 1
+      },
+      {
+        "title": "local subnets (IANA reserved address space). Pattern exists because 'Do not use this proxy for localhost and intranet/private IP addresses' is checked.",
+        "pattern": "^(?:[^:@/]+(?::[^@/]+)?@)?(?:192\\.168\\.\\d+\\.\\d+|10\\.\\d+\\.\\d+\\.\\d+|172\\.(?:1[6789]|2[0-9]|3[01])\\.\\d+\\.\\d+)(?::\\d+)?(?:/.*)?$",
+        "active": true,
+        "type": 2,
+        "protocols": 1
+      },
+      {
+        "title": "localhost - matches the local host optionally prefixed by a user:password authentication string and optionally suffixed by a port number. The entire local subnet (127.0.0.0/8) matches. Pattern exists because 'Do not use this proxy for localhost and intranet/private IP addresses' is checked.",
+        "pattern": "^(?:[^:@/]+(?::[^@/]+)?@)?[\\w-]+(?::\\d+)?(?:/.*)?$",
+        "active": true,
+        "type": 2,
+        "protocols": 1
+      }
+    ],
+    "index": "900719925474099113",
+    "proxyDNS": false,
+    "username": "",
+    "password": "",
+    "pacURL": ""
+  },
+  "ujfrje1697456910379": {
+    "type": 2,
+    "address": "216.169.136.254",
+    "port": 547,
+    "color": "#39c5bb",
+    "active": true,
+    "title": "DHCPv6",
+    "whitePatterns": [
+      {
+        "title": "all URLs",
+        "active": true,
+        "pattern": "*",
+        "type": 1,
+        "protocols": 1
+      }
+    ],
+    "blackPatterns": [
+      {
+        "title": "local hostnames (usually no dots in the name). Pattern exists because 'Do not use this proxy for localhost and intranet/private IP addresses' is checked.",
+        "pattern": "^(?:[^:@/]+(?::[^@/]+)?@)?(?:localhost|127\\.\\d+\\.\\d+\\.\\d+)(?::\\d+)?(?:/.*)?$",
+        "active": true,
+        "type": 2,
+        "protocols": 1
+      },
+      {
+        "title": "local subnets (IANA reserved address space). Pattern exists because 'Do not use this proxy for localhost and intranet/private IP addresses' is checked.",
+        "pattern": "^(?:[^:@/]+(?::[^@/]+)?@)?(?:192\\.168\\.\\d+\\.\\d+|10\\.\\d+\\.\\d+\\.\\d+|172\\.(?:1[6789]|2[0-9]|3[01])\\.\\d+\\.\\d+)(?::\\d+)?(?:/.*)?$",
+        "active": true,
+        "type": 2,
+        "protocols": 1
+      },
+      {
+        "title": "localhost - matches the local host optionally prefixed by a user:password authentication string and optionally suffixed by a port number. The entire local subnet (127.0.0.0/8) matches. Pattern exists because 'Do not use this proxy for localhost and intranet/private IP addresses' is checked.",
+        "pattern": "^(?:[^:@/]+(?::[^@/]+)?@)?[\\w-]+(?::\\d+)?(?:/.*)?$",
+        "active": true,
+        "type": 2,
+        "protocols": 1
+      }
+    ],
+    "index": "90071992547409916",
+    "proxyDNS": false,
+    "username": "",
+    "password": "",
+    "pacURL": ""
+  },
+  "jo29lo1697456910379": {
+    "type": 2,
+    "address": "216.169.136.254",
+    "port": 518,
+    "color": "#39c5bb",
+    "active": true,
+    "title": "IKE",
+    "whitePatterns": [
+      {
+        "title": "all URLs",
+        "active": true,
+        "pattern": "*",
+        "type": 1,
+        "protocols": 1
+      }
+    ],
+    "blackPatterns": [
+      {
+        "title": "local hostnames (usually no dots in the name). Pattern exists because 'Do not use this proxy for localhost and intranet/private IP addresses' is checked.",
+        "pattern": "^(?:[^:@/]+(?::[^@/]+)?@)?(?:localhost|127\\.\\d+\\.\\d+\\.\\d+)(?::\\d+)?(?:/.*)?$",
+        "active": true,
+        "type": 2,
+        "protocols": 1
+      },
+      {
+        "title": "local subnets (IANA reserved address space). Pattern exists because 'Do not use this proxy for localhost and intranet/private IP addresses' is checked.",
+        "pattern": "^(?:[^:@/]+(?::[^@/]+)?@)?(?:192\\.168\\.\\d+\\.\\d+|10\\.\\d+\\.\\d+\\.\\d+|172\\.(?:1[6789]|2[0-9]|3[01])\\.\\d+\\.\\d+)(?::\\d+)?(?:/.*)?$",
+        "active": true,
+        "type": 2,
+        "protocols": 1
+      },
+      {
+        "title": "localhost - matches the local host optionally prefixed by a user:password authentication string and optionally suffixed by a port number. The entire local subnet (127.0.0.0/8) matches. Pattern exists because 'Do not use this proxy for localhost and intranet/private IP addresses' is checked.",
+        "pattern": "^(?:[^:@/]+(?::[^@/]+)?@)?[\\w-]+(?::\\d+)?(?:/.*)?$",
+        "active": true,
+        "type": 2,
+        "protocols": 1
+      }
+    ],
+    "index": "90071992547409915",
+    "proxyDNS": false,
+    "username": "",
+    "password": "",
+    "pacURL": ""
+  },
+  "kdp5u81697456910377": {
+    "type": 2,
+    "address": "216.169.136.254",
+    "port": 123,
+    "color": "#39c5bb",
+    "active": true,
+    "title": "NTP",
+    "whitePatterns": [
+      {
+        "title": "all URLs",
+        "active": true,
+        "pattern": "*",
+        "type": 1,
+        "protocols": 1
+      }
+    ],
+    "blackPatterns": [
+      {
+        "title": "local hostnames (usually no dots in the name). Pattern exists because 'Do not use this proxy for localhost and intranet/private IP addresses' is checked.",
+        "pattern": "^(?:[^:@/]+(?::[^@/]+)?@)?(?:localhost|127\\.\\d+\\.\\d+\\.\\d+)(?::\\d+)?(?:/.*)?$",
+        "active": true,
+        "type": 2,
+        "protocols": 1
+      },
+      {
+        "title": "local subnets (IANA reserved address space). Pattern exists because 'Do not use this proxy for localhost and intranet/private IP addresses' is checked.",
+        "pattern": "^(?:[^:@/]+(?::[^@/]+)?@)?(?:192\\.168\\.\\d+\\.\\d+|10\\.\\d+\\.\\d+\\.\\d+|172\\.(?:1[6789]|2[0-9]|3[01])\\.\\d+\\.\\d+)(?::\\d+)?(?:/.*)?$",
+        "active": true,
+        "type": 2,
+        "protocols": 1
+      },
+      {
+        "title": "localhost - matches the local host optionally prefixed by a user:password authentication string and optionally suffixed by a port number. The entire local subnet (127.0.0.0/8) matches. Pattern exists because 'Do not use this proxy for localhost and intranet/private IP addresses' is checked.",
+        "pattern": "^(?:[^:@/]+(?::[^@/]+)?@)?[\\w-]+(?::\\d+)?(?:/.*)?$",
+        "active": true,
+        "type": 2,
+        "protocols": 1
+      }
+    ],
+    "index": "90071992547409911",
+    "proxyDNS": false,
+    "username": "",
+    "password": "",
+    "pacURL": ""
+  },
+  "snd951697456910378": {
+    "type": 2,
+    "address": "216.169.136.254",
+    "port": 443,
+    "color": "#39c5bb",
+    "active": true,
+    "title": "HTTPS",
+    "whitePatterns": [
+      {
+        "title": "all URLs",
+        "active": true,
+        "pattern": "*",
+        "type": 1,
+        "protocols": 1
+      }
+    ],
+    "blackPatterns": [
+      {
+        "title": "local hostnames (usually no dots in the name). Pattern exists because 'Do not use this proxy for localhost and intranet/private IP addresses' is checked.",
+        "pattern": "^(?:[^:@/]+(?::[^@/]+)?@)?(?:localhost|127\\.\\d+\\.\\d+\\.\\d+)(?::\\d+)?(?:/.*)?$",
+        "active": true,
+        "type": 2,
+        "protocols": 1
+      },
+      {
+        "title": "local subnets (IANA reserved address space). Pattern exists because 'Do not use this proxy for localhost and intranet/private IP addresses' is checked.",
+        "pattern": "^(?:[^:@/]+(?::[^@/]+)?@)?(?:192\\.168\\.\\d+\\.\\d+|10\\.\\d+\\.\\d+\\.\\d+|172\\.(?:1[6789]|2[0-9]|3[01])\\.\\d+\\.\\d+)(?::\\d+)?(?:/.*)?$",
+        "active": true,
+        "type": 2,
+        "protocols": 1
+      },
+      {
+        "title": "localhost - matches the local host optionally prefixed by a user:password authentication string and optionally suffixed by a port number. The entire local subnet (127.0.0.0/8) matches. Pattern exists because 'Do not use this proxy for localhost and intranet/private IP addresses' is checked.",
+        "pattern": "^(?:[^:@/]+(?::[^@/]+)?@)?[\\w-]+(?::\\d+)?(?:/.*)?$",
+        "active": true,
+        "type": 2,
+        "protocols": 1
+      }
+    ],
+    "index": "90071992547409913",
+    "proxyDNS": false,
+    "username": "",
+    "password": "",
+    "pacURL": ""
+  },
+  "j1x6111697456910378": {
+    "type": 2,
+    "address": "216.169.136.254",
+    "port": 500,
+    "color": "#39c5bb",
+    "active": true,
+    "title": "IKE",
+    "whitePatterns": [
+      {
+        "title": "all URLs",
+        "active": true,
+        "pattern": "*",
+        "type": 1,
+        "protocols": 1
+      }
+    ],
+    "blackPatterns": [
+      {
+        "title": "local hostnames (usually no dots in the name). Pattern exists because 'Do not use this proxy for localhost and intranet/private IP addresses' is checked.",
+        "pattern": "^(?:[^:@/]+(?::[^@/]+)?@)?(?:localhost|127\\.\\d+\\.\\d+\\.\\d+)(?::\\d+)?(?:/.*)?$",
+        "active": true,
+        "type": 2,
+        "protocols": 1
+      },
+      {
+        "title": "local subnets (IANA reserved address space). Pattern exists because 'Do not use this proxy for localhost and intranet/private IP addresses' is checked.",
+        "pattern": "^(?:[^:@/]+(?::[^@/]+)?@)?(?:192\\.168\\.\\d+\\.\\d+|10\\.\\d+\\.\\d+\\.\\d+|172\\.(?:1[6789]|2[0-9]|3[01])\\.\\d+\\.\\d+)(?::\\d+)?(?:/.*)?$",
+        "active": true,
+        "type": 2,
+        "protocols": 1
+      },
+      {
+        "title": "localhost - matches the local host optionally prefixed by a user:password authentication string and optionally suffixed by a port number. The entire local subnet (127.0.0.0/8) matches. Pattern exists because 'Do not use this proxy for localhost and intranet/private IP addresses' is checked.",
+        "pattern": "^(?:[^:@/]+(?::[^@/]+)?@)?[\\w-]+(?::\\d+)?(?:/.*)?$",
+        "active": true,
+        "type": 2,
+        "protocols": 1
+      }
+    ],
+    "index": "90071992547409914",
+    "proxyDNS": false,
+    "username": "",
+    "password": "",
+    "pacURL": ""
+  },
+  "qbcgqy1697456910383": {
+    "type": 2,
+    "address": "216.169.136.254",
+    "port": 3306,
+    "color": "#39c5bb",
+    "active": true,
+    "title": "MySQL",
+    "whitePatterns": [
+      {
+        "title": "all URLs",
+        "active": true,
+        "pattern": "*",
+        "type": 1,
+        "protocols": 1
+      }
+    ],
+    "blackPatterns": [
+      {
+        "title": "local hostnames (usually no dots in the name). Pattern exists because 'Do not use this proxy for localhost and intranet/private IP addresses' is checked.",
+        "pattern": "^(?:[^:@/]+(?::[^@/]+)?@)?(?:localhost|127\\.\\d+\\.\\d+\\.\\d+)(?::\\d+)?(?:/.*)?$",
+        "active": true,
+        "type": 2,
+        "protocols": 1
+      },
+      {
+        "title": "local subnets (IANA reserved address space). Pattern exists because 'Do not use this proxy for localhost and intranet/private IP addresses' is checked.",
+        "pattern": "^(?:[^:@/]+(?::[^@/]+)?@)?(?:192\\.168\\.\\d+\\.\\d+|10\\.\\d+\\.\\d+\\.\\d+|172\\.(?:1[6789]|2[0-9]|3[01])\\.\\d+\\.\\d+)(?::\\d+)?(?:/.*)?$",
+        "active": true,
+        "type": 2,
+        "protocols": 1
+      },
+      {
+        "title": "localhost - matches the local host optionally prefixed by a user:password authentication string and optionally suffixed by a port number. The entire local subnet (127.0.0.0/8) matches. Pattern exists because 'Do not use this proxy for localhost and intranet/private IP addresses' is checked.",
+        "pattern": "^(?:[^:@/]+(?::[^@/]+)?@)?[\\w-]+(?::\\d+)?(?:/.*)?$",
+        "active": true,
+        "type": 2,
+        "protocols": 1
+      }
+    ],
+    "index": "900719925474099114",
+    "proxyDNS": false,
+    "username": "",
+    "password": "",
+    "pacURL": ""
+  },
+  "nl46el1697456910377": {
+    "type": 2,
+    "address": "216.169.136.254",
+    "port": 268,
+    "color": "#284b63",
+    "active": true,
+    "title": "268",
+    "whitePatterns": [
+      {
+        "title": "all URLs",
+        "active": true,
+        "pattern": "*",
+        "type": 1,
+        "protocols": 1
+      }
+    ],
+    "blackPatterns": [
+      {
+        "title": "local hostnames (usually no dots in the name). Pattern exists because 'Do not use this proxy for localhost and intranet/private IP addresses' is checked.",
+        "pattern": "^(?:[^:@/]+(?::[^@/]+)?@)?(?:localhost|127\\.\\d+\\.\\d+\\.\\d+)(?::\\d+)?(?:/.*)?$",
+        "active": true,
+        "type": 2,
+        "protocols": 1
+      },
+      {
+        "title": "local subnets (IANA reserved address space). Pattern exists because 'Do not use this proxy for localhost and intranet/private IP addresses' is checked.",
+        "pattern": "^(?:[^:@/]+(?::[^@/]+)?@)?(?:192\\.168\\.\\d+\\.\\d+|10\\.\\d+\\.\\d+\\.\\d+|172\\.(?:1[6789]|2[0-9]|3[01])\\.\\d+\\.\\d+)(?::\\d+)?(?:/.*)?$",
+        "active": true,
+        "type": 2,
+        "protocols": 1
+      },
+      {
+        "title": "localhost - matches the local host optionally prefixed by a user:password authentication string and optionally suffixed by a port number. The entire local subnet (127.0.0.0/8) matches. Pattern exists because 'Do not use this proxy for localhost and intranet/private IP addresses' is checked.",
+        "pattern": "^(?:[^:@/]+(?::[^@/]+)?@)?[\\w-]+(?::\\d+)?(?:/.*)?$",
+        "active": true,
+        "type": 2,
+        "protocols": 1
+      }
+    ],
+    "index": "90071992547409912",
+    "proxyDNS": false,
+    "username": "",
+    "password": "",
+    "pacURL": ""
+  },
+  "jt4c2g1697456910380": {
+    "type": 2,
+    "address": "216.169.136.254",
+    "port": 812,
+    "color": "#284b63",
+    "active": true,
+    "title": "812",
+    "whitePatterns": [
+      {
+        "title": "all URLs",
+        "active": true,
+        "pattern": "*",
+        "type": 1,
+        "protocols": 1
+      }
+    ],
+    "blackPatterns": [
+      {
+        "title": "local hostnames (usually no dots in the name). Pattern exists because 'Do not use this proxy for localhost and intranet/private IP addresses' is checked.",
+        "pattern": "^(?:[^:@/]+(?::[^@/]+)?@)?(?:localhost|127\\.\\d+\\.\\d+\\.\\d+)(?::\\d+)?(?:/.*)?$",
+        "active": true,
+        "type": 2,
+        "protocols": 1
+      },
+      {
+        "title": "local subnets (IANA reserved address space). Pattern exists because 'Do not use this proxy for localhost and intranet/private IP addresses' is checked.",
+        "pattern": "^(?:[^:@/]+(?::[^@/]+)?@)?(?:192\\.168\\.\\d+\\.\\d+|10\\.\\d+\\.\\d+\\.\\d+|172\\.(?:1[6789]|2[0-9]|3[01])\\.\\d+\\.\\d+)(?::\\d+)?(?:/.*)?$",
+        "active": true,
+        "type": 2,
+        "protocols": 1
+      },
+      {
+        "title": "localhost - matches the local host optionally prefixed by a user:password authentication string and optionally suffixed by a port number. The entire local subnet (127.0.0.0/8) matches. Pattern exists because 'Do not use this proxy for localhost and intranet/private IP addresses' is checked.",
+        "pattern": "^(?:[^:@/]+(?::[^@/]+)?@)?[\\w-]+(?::\\d+)?(?:/.*)?$",
+        "active": true,
+        "type": 2,
+        "protocols": 1
+      }
+    ],
+    "index": "90071992547409917",
+    "proxyDNS": false,
+    "username": "",
+    "password": "",
+    "pacURL": ""
+  },
+  "ev4dks1697456910380": {
+    "type": 2,
+    "address": "216.169.136.254",
+    "port": 1029,
+    "color": "#c99656",
+    "active": true,
+    "title": "1029",
+    "whitePatterns": [
+      {
+        "title": "all URLs",
+        "active": true,
+        "pattern": "*",
+        "type": 1,
+        "protocols": 1
+      }
+    ],
+    "blackPatterns": [
+      {
+        "title": "local hostnames (usually no dots in the name). Pattern exists because 'Do not use this proxy for localhost and intranet/private IP addresses' is checked.",
+        "pattern": "^(?:[^:@/]+(?::[^@/]+)?@)?(?:localhost|127\\.\\d+\\.\\d+\\.\\d+)(?::\\d+)?(?:/.*)?$",
+        "active": true,
+        "type": 2,
+        "protocols": 1
+      },
+      {
+        "title": "local subnets (IANA reserved address space). Pattern exists because 'Do not use this proxy for localhost and intranet/private IP addresses' is checked.",
+        "pattern": "^(?:[^:@/]+(?::[^@/]+)?@)?(?:192\\.168\\.\\d+\\.\\d+|10\\.\\d+\\.\\d+\\.\\d+|172\\.(?:1[6789]|2[0-9]|3[01])\\.\\d+\\.\\d+)(?::\\d+)?(?:/.*)?$",
+        "active": true,
+        "type": 2,
+        "protocols": 1
+      },
+      {
+        "title": "localhost - matches the local host optionally prefixed by a user:password authentication string and optionally suffixed by a port number. The entire local subnet (127.0.0.0/8) matches. Pattern exists because 'Do not use this proxy for localhost and intranet/private IP addresses' is checked.",
+        "pattern": "^(?:[^:@/]+(?::[^@/]+)?@)?[\\w-]+(?::\\d+)?(?:/.*)?$",
+        "active": true,
+        "type": 2,
+        "protocols": 1
+      }
+    ],
+    "index": "90071992547409918",
+    "proxyDNS": false,
+    "username": "",
+    "password": "",
+    "pacURL": ""
+  },
+  "c7sic1697456910380": {
+    "type": 2,
+    "address": "216.169.136.254",
+    "port": 1289,
+    "color": "#7b758c",
+    "active": true,
+    "title": "1289",
+    "whitePatterns": [
+      {
+        "title": "all URLs",
+        "active": true,
+        "pattern": "*",
+        "type": 1,
+        "protocols": 1
+      }
+    ],
+    "blackPatterns": [
+      {
+        "title": "local hostnames (usually no dots in the name). Pattern exists because 'Do not use this proxy for localhost and intranet/private IP addresses' is checked.",
+        "pattern": "^(?:[^:@/]+(?::[^@/]+)?@)?(?:localhost|127\\.\\d+\\.\\d+\\.\\d+)(?::\\d+)?(?:/.*)?$",
+        "active": true,
+        "type": 2,
+        "protocols": 1
+      },
+      {
+        "title": "local subnets (IANA reserved address space). Pattern exists because 'Do not use this proxy for localhost and intranet/private IP addresses' is checked.",
+        "pattern": "^(?:[^:@/]+(?::[^@/]+)?@)?(?:192\\.168\\.\\d+\\.\\d+|10\\.\\d+\\.\\d+\\.\\d+|172\\.(?:1[6789]|2[0-9]|3[01])\\.\\d+\\.\\d+)(?::\\d+)?(?:/.*)?$",
+        "active": true,
+        "type": 2,
+        "protocols": 1
+      },
+      {
+        "title": "localhost - matches the local host optionally prefixed by a user:password authentication string and optionally suffixed by a port number. The entire local subnet (127.0.0.0/8) matches. Pattern exists because 'Do not use this proxy for localhost and intranet/private IP addresses' is checked.",
+        "pattern": "^(?:[^:@/]+(?::[^@/]+)?@)?[\\w-]+(?::\\d+)?(?:/.*)?$",
+        "active": true,
+        "type": 2,
+        "protocols": 1
+      }
+    ],
+    "index": "90071992547409919",
+    "proxyDNS": false,
+    "username": "",
+    "password": "",
+    "pacURL": ""
+  },
+  "wtkb1697456910380": {
+    "type": 2,
+    "address": "216.169.136.254",
+    "port": 2672,
+    "color": "#171e1d",
+    "active": true,
+    "title": "2672",
+    "whitePatterns": [
+      {
+        "title": "all URLs",
+        "active": true,
+        "pattern": "*",
+        "type": 1,
+        "protocols": 1
+      }
+    ],
+    "blackPatterns": [
+      {
+        "title": "local hostnames (usually no dots in the name). Pattern exists because 'Do not use this proxy for localhost and intranet/private IP addresses' is checked.",
+        "pattern": "^(?:[^:@/]+(?::[^@/]+)?@)?(?:localhost|127\\.\\d+\\.\\d+\\.\\d+)(?::\\d+)?(?:/.*)?$",
+        "active": true,
+        "type": 2,
+        "protocols": 1
+      },
+      {
+        "title": "local subnets (IANA reserved address space). Pattern exists because 'Do not use this proxy for localhost and intranet/private IP addresses' is checked.",
+        "pattern": "^(?:[^:@/]+(?::[^@/]+)?@)?(?:192\\.168\\.\\d+\\.\\d+|10\\.\\d+\\.\\d+\\.\\d+|172\\.(?:1[6789]|2[0-9]|3[01])\\.\\d+\\.\\d+)(?::\\d+)?(?:/.*)?$",
+        "active": true,
+        "type": 2,
+        "protocols": 1
+      },
+      {
+        "title": "localhost - matches the local host optionally prefixed by a user:password authentication string and optionally suffixed by a port number. The entire local subnet (127.0.0.0/8) matches. Pattern exists because 'Do not use this proxy for localhost and intranet/private IP addresses' is checked.",
+        "pattern": "^(?:[^:@/]+(?::[^@/]+)?@)?[\\w-]+(?::\\d+)?(?:/.*)?$",
+        "active": true,
+        "type": 2,
+        "protocols": 1
+      }
+    ],
+    "index": "900719925474099110",
+    "proxyDNS": false,
+    "username": "",
+    "password": "",
+    "pacURL": ""
+  },
+  "xi2rp91697456910381": {
+    "type": 2,
+    "address": "216.169.136.254",
+    "port": 8181,
+    "color": "#663300",
+    "active": true,
+    "title": "8181",
+    "whitePatterns": [
+      {
+        "title": "all URLs",
+        "active": true,
+        "pattern": "*",
+        "type": 1,
+        "protocols": 1
+      }
+    ],
+    "blackPatterns": [
+      {
+        "title": "local hostnames (usually no dots in the name). Pattern exists because 'Do not use this proxy for localhost and intranet/private IP addresses' is checked.",
+        "pattern": "^(?:[^:@/]+(?::[^@/]+)?@)?(?:localhost|127\\.\\d+\\.\\d+\\.\\d+)(?::\\d+)?(?:/.*)?$",
+        "active": true,
+        "type": 2,
+        "protocols": 1
+      },
+      {
+        "title": "local subnets (IANA reserved address space). Pattern exists because 'Do not use this proxy for localhost and intranet/private IP addresses' is checked.",
+        "pattern": "^(?:[^:@/]+(?::[^@/]+)?@)?(?:192\\.168\\.\\d+\\.\\d+|10\\.\\d+\\.\\d+\\.\\d+|172\\.(?:1[6789]|2[0-9]|3[01])\\.\\d+\\.\\d+)(?::\\d+)?(?:/.*)?$",
+        "active": true,
+        "type": 2,
+        "protocols": 1
+      },
+      {
+        "title": "localhost - matches the local host optionally prefixed by a user:password authentication string and optionally suffixed by a port number. The entire local subnet (127.0.0.0/8) matches. Pattern exists because 'Do not use this proxy for localhost and intranet/private IP addresses' is checked.",
+        "pattern": "^(?:[^:@/]+(?::[^@/]+)?@)?[\\w-]+(?::\\d+)?(?:/.*)?$",
+        "active": true,
+        "type": 2,
+        "protocols": 1
+      }
+    ],
+    "index": "900719925474099111",
+    "proxyDNS": false,
+    "username": "",
+    "password": "",
+    "pacURL": ""
+  },
+  "10i8dh1697456910381": {
+    "type": 2,
+    "address": "216.169.136.254",
+    "port": 8292,
+    "color": "#284b63",
+    "active": true,
+    "title": "8292",
+    "whitePatterns": [
+      {
+        "title": "all URLs",
+        "active": true,
+        "pattern": "*",
+        "type": 1,
+        "protocols": 1
+      }
+    ],
+    "blackPatterns": [
+      {
+        "title": "local hostnames (usually no dots in the name). Pattern exists because 'Do not use this proxy for localhost and intranet/private IP addresses' is checked.",
+        "pattern": "^(?:[^:@/]+(?::[^@/]+)?@)?(?:localhost|127\\.\\d+\\.\\d+\\.\\d+)(?::\\d+)?(?:/.*)?$",
+        "active": true,
+        "type": 2,
+        "protocols": 1
+      },
+      {
+        "title": "local subnets (IANA reserved address space). Pattern exists because 'Do not use this proxy for localhost and intranet/private IP addresses' is checked.",
+        "pattern": "^(?:[^:@/]+(?::[^@/]+)?@)?(?:192\\.168\\.\\d+\\.\\d+|10\\.\\d+\\.\\d+\\.\\d+|172\\.(?:1[6789]|2[0-9]|3[01])\\.\\d+\\.\\d+)(?::\\d+)?(?:/.*)?$",
+        "active": true,
+        "type": 2,
+        "protocols": 1
+      },
+      {
+        "title": "localhost - matches the local host optionally prefixed by a user:password authentication string and optionally suffixed by a port number. The entire local subnet (127.0.0.0/8) matches. Pattern exists because 'Do not use this proxy for localhost and intranet/private IP addresses' is checked.",
+        "pattern": "^(?:[^:@/]+(?::[^@/]+)?@)?[\\w-]+(?::\\d+)?(?:/.*)?$",
+        "active": true,
+        "type": 2,
+        "protocols": 1
+      }
+    ],
+    "index": "900719925474099112",
+    "proxyDNS": false,
+    "username": "",
+    "password": "",
+    "pacURL": ""
+  },
+  "mode": "patterns",
+  "browserVersion": "118.0.2",
+  "foxyProxyVersion": "7.5.1",
+  "foxyProxyEdition": "standard",
+  "sync": true
+}
