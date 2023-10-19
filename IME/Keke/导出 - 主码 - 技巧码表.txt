@@ -7,9 +7,9 @@ $ddcmd(<time.H>时<time.M>分,<time.H>时<time.M>分)	;CMDtime
 $ddcmd(run(notepad.exe),【记事本】)	;CMDrun
 $ddcmd(run(%apppath%\),【可可安装目录】)	;CMDrun
 $ddcmd(run(mspaint.exe),【画图软件】)	;CMDrun
-$ddcmd(help(license.html,800,600),【查看许可协议】)	;CMDhelp
-$ddcmd(help(shiyongjiqiao.html,800,600),【使用技巧】)	;CMDhelp
 $ddcmd(help(teshufuhao.html,800,600),【查看特殊符号】)	;CMDhelp
+$ddcmd(help(shiyongjiqiao.html,800,600),【使用技巧】)	;CMDhelp
+$ddcmd(help(license.html,800,600),【查看许可协议】)	;CMDhelp
 $ddcmd(help(denote.html,800,600),【捐助可可】)	;CMDhelp
 $ddcmd(help(howToGet.html,800,600),【如何获得本程序】)	;CMDhelp
 $ddcmd(<date.z>)	;CMDdate
@@ -23,9 +23,9 @@ $ddcmd(<date.YYYY>年<date.M>月,<date.YYYY>年<date.M>月)	;CMDdate
 $ddcmd(config(),-System 【系统设置】)	;CMDconf
 $ddcmd(config(/do anjianshezhi),-Key 【按键设置】 )	;CMDconf
 $ddcmd(config(/do gaojishezhi),-Advanced 【高级设置】 )	;CMDconf
+$ddcmd(convert(全半角,切换),-Width 【角宽切换】)	;CMDconv
 $ddcmd(convert(中英文标点,切换),-Symbol 【标点切换】)	;CMDconv
 $ddcmd(convert(繁体输出,切换),-TypeFace 【简繁切换】)	;CMDconv
-$ddcmd(convert(全半角,切换),-Width 【角宽切换】)	;CMDconv
 $ddcmd(set([-IME设置-],隐藏状态栏窗口=否),-Hide 【显示状态】)	;CMDstatus
 $ddcmd(set([-IME设置-],隐藏状态栏窗口=是),-display 【隐藏状态】)	;CMDstatus
 $ddcmd($ddcmd(help(.md),),-Help)	;CMDhelp
@@ -34,8 +34,8 @@ $ddcmd(run(calc.exe),【计算器】)	;CMDrun
 $ddcmd(run(chrome.exe),【Chrome】)	;CMDrun
 $ddcmd(set([-DME设置-],显示码表词语码长=4),-Phrase 【字词模式】 )	;CMDchmod
 $ddcmd(set([-DME设置-],显示码表词语码长=5),【-Word 单字模式】 )	;CMDchmod
-$ddcmd($ddcmdnewkey;CMD,,-NewKey)	;CMDpattern
 $ddcmd($ddcmd(run(.exe),),-Run)	;CMDpattern
+$ddcmd($ddcmdnewkey;CMD,,-NewKey)	;CMDpattern
 $ddcmd($ddcmd(set([-设置-],=),),-Set)	;CMDpattern
 $ddcmd($ddcmd(,),-ReName)	;CMDpattern
 $ddcmd(run(bilibili.exe),# Bilibili )	bilibili
@@ -43,7 +43,6 @@ $ddcmd(run(chatgpt.exe),# ChatGPT )	chatGPT
 $ddcmd(run(chromium.exe),# Chromium )	chromium
 $ddcmd(run(cmd.exe),# Cmd )	cmd
 $ddcmd(run(code.exe),# VS Code )	code
-$ddcmd(run(www.cnblogs.com),# CnBlogs )	cnblogs
 $ddcmd(newkey(;CMDconv),【转换】)	conv
 $ddcmd(newkey(;CMDconf),【配置】)	conf
 $ddcmd(newkey(;CMDchmod),【输入】)	chmod
@@ -54,12 +53,11 @@ $ddcmd(run(dism++.exe),# Dism++ )	dismpp
 $ddcmd(run(geek.exe),# Geek Installer )	geek
 $ddcmd(run(genact.exe),# GenAct )	genact
 $ddcmd(run(githubdesktop.exe),# Github Desktop )	githubDesktop
-$ddcmd(run(www.greasyfork.org),# Greasy Fork )	greasyfork
 $ddcmd(run(www.github.com),# Github )	github
 $ddcmd(newkey(;CMDhelp),【可可帮助】)	help
 $ddcmd(run(idea.exe),# Intellij IDEA )	idea
-$ddcmd(run(D:\UsrDir\DeskTop\Repos\MyPortFolio\Java\JAVA.md),# Java )	java
-$ddcmd(run(http://www.suke.kim/),# 可可)	keke
+$ddcmd(run(D:\UsrDir\DeskTop\Repos\MyPortFolio\Java\JAVA.md),> Java )	java
+$ddcmd(run(http://www.suke.kim/),* 可可)	keke
 $ddcmd(run(notion.exe),# Notion )	notion
 $ddcmd(run(obsidian.exe), # Obsidian )	obsidian
 $ddcmd(run(obs.exe),# Obs )	obs
@@ -67,12 +65,12 @@ $ddcmd(run(PowerShell.exe),# Posh )	posh
 $ddcmd(newkey(;CMDpattern),【命令模板】)	pattern
 $ddcmd(newkey(;CMDrun),【快捷运行程序】)	run
 $ddcmd(run(regedit.exe),# Registry Editor )	regedit
-$ddcmd(run(D:\UsrDir\DeskTop\Repos),# Repos )	repos
 $ddcmd(newkey(chmod),Chmod )	remind
 $ddcmd(newkey(pattern),Pattern )	remind
 $ddcmd(newkey(status),Status )	remind
 $ddcmd(newkey(java),JAVA )	remind
 $ddcmd(newkey(repos),Repos )	remind
+$ddcmd(run(D:\UsrDir\DeskTop\Repos),> Repos )	repos
 $ddcmd(run(steam.exe),# Steam )	steam
 $ddcmd(newkey(;CMDstatus),【状态】)	status
 $ddcmd(run(steam++.exe),# Steam++ )	steampp
@@ -81,6 +79,7 @@ $ddcmd(newkey(;CMDtime),【输出时间】)	time
 $ddcmd(run(telegram.exe),# Telegram )	telegram
 $ddcmd(run(utools.exe),# Utools )	utools
 $ddcmd(run(vocaloid.exe), # Vocaloid )	vocaloid
+$ddcmd(run(https://github.com/philc/vimium/wiki),* Vimium )	vimium
 $ddcmd(<date.z>)	week
 $ddcmd(run(windowsterminal.exe),# Windows Terminal )	winTmn
 $ddcmd(run(wingetui.exe),# Winget UI )	winGet
