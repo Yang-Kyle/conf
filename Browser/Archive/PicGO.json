@@ -1,0 +1,99 @@
+{
+  "picBed": {
+    "current": "smms",
+    "uploader": "smms",
+    "smms": {
+      "token": "wtAqjMLBmYRjwOWRu5uNm04dYTpt4bGp",
+      "backupDomain": "smms.app"
+    },
+    "qiniu": {
+      "accessKey": "1KGeIQ0vQnMlvd-XsFfiIstQTCuYoo29ImCxo6ME",
+      "secretKey": "5X-pHeKVaSzgwA_HmWEJ2E2-dToxYJdrkbVXnxUT",
+      "bucket": "xi-an",
+      "url": "https://s34tu460f.hb-bkt.clouddn.com",
+      "area": "z1",
+      "options": "",
+      "path": ""
+    },
+    "upyun": {
+      "bucket": "my-pic-up",
+      "operator": "kyle",
+      "password": "qpIIP8XllXQRzqisGXBwix1OCGw1HsOh",
+      "url": "my-pic-up.test.upcdn.net",
+      "options": "",
+      "path": ""
+    },
+    "github": {
+      "repo": "Yang-Kyle/Image-Hosting-Service",
+      "branch": "master",
+      "token": "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",
+      "path": "",
+      "customUrl": ""
+    },
+    "aliyun": {
+      "accessKeyId": "LTAI5t9CLC6eDuvpNJ4fwWeD",
+      "accessKeySecret": "NV6tNyrGNVaDSAfwK1c6MMlLBFIDbU",
+      "bucket": "oh-my-pic",
+      "area": "oss-cn-beijing",
+      "path": "",
+      "customUrl": "",
+      "options": ""
+    },
+    "list": [
+      {
+        "type": "tcyun",
+        "name": "腾讯云COS",
+        "visible": false
+      },
+      {
+        "type": "aliyun",
+        "name": "阿里云OSS",
+        "visible": false
+      },
+      {
+        "type": "smms",
+        "name": "SM.MS",
+        "visible": true
+      },
+      {
+        "type": "github",
+        "name": "GitHub",
+        "visible": false
+      },
+      {
+        "type": "qiniu",
+        "name": "七牛云",
+        "visible": true
+      },
+      {
+        "type": "imgur",
+        "name": "Imgur",
+        "visible": false
+      },
+      {
+        "type": "upyun",
+        "name": "又拍云",
+        "visible": true
+      }
+    ]
+  },
+  "settings": {
+    "shortKey": {
+      "picgo:upload": {
+        "enable": true,
+        "key": "CommandOrControl+Shift+P",
+        "name": "upload",
+        "label": "QUICK_UPLOAD"
+      }
+    },
+    "showUpdateTip": true,
+    "privacyEnsure": true,
+    "useBuiltinClipboard": true,
+    "miniWindowOntop": true,
+    "uploadNotification": true,
+    "autoRename": true,
+    "rename": true,
+    "autoStart": true
+  },
+  "needReload": false
+}
