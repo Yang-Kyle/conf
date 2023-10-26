@@ -75,7 +75,18 @@
         "name": "又拍云",
         "visible": true
       }
-    ]
+    ],
+    "tcyun": {
+      "version": "v5",
+      "secretId": "",
+      "secretKey": "",
+      "bucket": "my-pic",
+      "appId": "pic",
+      "area": "ap-beijing-1",
+      "path": "",
+      "customUrl": "",
+      "options": ""
+    }
   },
   "settings": {
     "shortKey": {
