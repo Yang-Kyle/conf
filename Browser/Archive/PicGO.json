@@ -93,7 +93,15 @@
     "uploadNotification": true,
     "autoRename": true,
     "rename": true,
-    "autoStart": true
+    "autoStart": true,
+    "server": {
+      "port": 36677,
+      "host": "127.0.0.1",
+      "enable": true
+    }
   },
-  "needReload": false
+  "needReload": false,
+  "picgoPlugins": {},
+  "debug": true,
+  "PICGO_ENV": "GUI"
 }
