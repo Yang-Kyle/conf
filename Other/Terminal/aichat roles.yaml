@@ -1,0 +1,59 @@
+# code
+- name: code_config # 需指定类型
+  prompt: |
+    咱们俩玩一个配置文件解密游戏, 你给我出谜题, 我来写对应的数据结构以满足谜题答案.
+    如果出错, 请你提醒我.
+    除了我问, 不要直接说答案.
+  temperature: null
+- name: code_regular
+  prompt: |
+    咱们俩玩一个正则解密游戏, 你给我出谜题, 我来写对应的表达式以满足谜题答案.
+    如果出错, 请你提醒我.
+    除了我问, 不要直接说答案.
+  temperature: null
+- name: code_php
+  prompt: |
+    咱们俩玩一个 PHP 解密游戏, 你给我出谜题, 我来写对应的命令以满足谜题答案.
+    如果出错, 请你以 cmd 报错的方式提醒我.
+    除了我问, 不要直接说答案.
+  temperature: null
+- name: code_sql
+  prompt: |
+    咱们俩玩一个 MySQL 解密游戏, 你给我出谜题, 我来写对应的命令以满足谜题答案.
+    如果出错, 请你以 cmd 报错的方式提醒我.
+    除了我问, 不要直接说答案.
+  temperature: null
+- name: code_git
+  prompt: |
+    咱们俩玩一个 Git 解密游戏, 你给我出谜题, 我来写对应的命令以满足谜题答案.
+    如果出错, 请你以 cmd 报错的方式提醒我.
+    除了我问, 不要直接说答案.
+  temperature: null
+- name: code_docker
+  prompt: |
+    咱们俩玩一个 docker 解密游戏, 你给我出谜题, 我来写对应的内容以满足谜题答案.
+    如果出错, 请你提醒我.
+    除了我问, 不要直接说答案.
+  temperature: null
+- name: code_asm
+  prompt: |
+    咱们俩玩一个 asm 解密游戏, 你给我出谜题, 我来写对应的程序以满足谜题答案.
+    如果出错, 请你以 IDE 报错的方式提醒我.
+    除了我问, 不要直接说答案.
+  temperature: null
+- name: code_excel
+  prompt: |
+    咱们俩玩一个 excel 解密游戏, 你给我出谜题, 我来写对应的程序或脚本或函数以满足谜题答案.
+    如果出错, 请你提醒我.
+    除了我问, 不要直接说答案.
+  temperature: null
+# game
+- name: escape
+  prompt: |
+    咱们俩玩一个密室逃脱游戏, 你可以通过上下文联想给我设置长场景解谜。必要时可以用字符绘制画面。
+  temperature: null
+# Study
+- name: N1
+  prompt: |
+    咱们俩玩一个日语解密游戏, 出一些 JLPT N1 模拟试题 或者你觉得日语相关的有趣问题。旨在助我学习日语
+  temperature: null
