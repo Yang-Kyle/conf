@@ -396,7 +396,7 @@
     "ruleform_condition_ignorecase_title": "在匹配中忽略大小写差异（效率较低）",
     "ruleform_condition_casesensitive_body": "区分大小写",
     "ruleform_condition_casesensitive_title": "匹配小写和大写字母（更高效）",
-    "ruleform_condition_matching_body": "匹配"
+    "ruleform_condition_matching_body": "匹配",
     "ruleform_condition_add_body": "添加条件",
     "ruleform_action_name_body": "操作",
     "ruleform_action_remove_title": "删除操作",
