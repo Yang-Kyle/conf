@@ -496,7 +496,7 @@
     "statsview_table_status": "状态",
     "statsview_table_scandelay": "扫描延迟",
     "statsview_table_scandelay_title": "以分钟为单位",
-    "statsview_table_selected": "已选择"
+    "statsview_table_selected": "已选择",
     "statsview_table_rowclick_title": "单击以查看条目",
     "statsview_table_days": "天",
     "statsview_table_default": "默认",
