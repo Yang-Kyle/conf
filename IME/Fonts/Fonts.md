@@ -8,7 +8,7 @@
 
 ## Main
 
-1. 思源 普惠体
+1. 思源
 2. 字由 字魂
 
 ## English
@@ -29,8 +29,7 @@ Mozilla
 
 Ubuntu
 
+## Custom
 
-
-Input Mono
-
-iosevka
+1. iosevka：https://typeof.net/Iosevka/customizer
+2. Input Mono：https://input.djr.com/download/
