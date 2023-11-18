@@ -3,12 +3,12 @@
     "current": "smms",
     "uploader": "smms",
     "smms": {
-      "token": "wtAqjMLBmYRjwOWRu5uNm04dYTpt4bGp",
+      "token": "",
       "backupDomain": "smms.app"
     },
     "qiniu": {
-      "accessKey": "1KGeIQ0vQnMlvd-XsFfiIstQTCuYoo29ImCxo6ME",
-      "secretKey": "5X-pHeKVaSzgwA_HmWEJ2E2-dToxYJdrkbVXnxUT",
+      "accessKey": "",
+      "secretKey": "",
       "bucket": "xi-an",
       "url": "https://s34tu460f.hb-bkt.clouddn.com",
       "area": "z1",
@@ -18,7 +18,7 @@
     "upyun": {
       "bucket": "my-pic-up",
       "operator": "kyle",
-      "password": "qpIIP8XllXQRzqisGXBwix1OCGw1HsOh",
+      "password": "",
       "url": "my-pic-up.test.upcdn.net",
       "options": "",
       "path": ""
@@ -26,13 +26,13 @@
     "github": {
       "repo": "Yang-Kyle/Image-Hosting-Service",
       "branch": "master",
-      "token": "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",
+      "token": "",
       "path": "",
       "customUrl": ""
     },
     "aliyun": {
-      "accessKeyId": "LTAI5t9CLC6eDuvpNJ4fwWeD",
-      "accessKeySecret": "NV6tNyrGNVaDSAfwK1c6MMlLBFIDbU",
+      "accessKeyId": "",
+      "accessKeySecret": "",
       "bucket": "oh-my-pic",
       "area": "oss-cn-beijing",
       "path": "",
