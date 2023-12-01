@@ -1,0 +1,114 @@
+{ "appName": "TagSpaces", "appVersion": "5.5.4", "settingsVersion": 3, "tagGroups": [
+  {
+    "title": "ToDo Workflow",
+    "uuid": "9cfddfd1312044e58a083f03fdd3f031",
+    "children": [
+      {
+        "title": "done",
+        "color": "#008000",
+        "textcolor": "#ffffff"
+      },
+      {
+        "title": "next",
+        "color": "#008000",
+        "textcolor": "#ffffff"
+      },
+      {
+        "title": "maybe",
+        "color": "#008000",
+        "textcolor": "#ffffff"
+      },
+      {
+        "title": "waiting",
+        "color": "#008000",
+        "textcolor": "#ffffff"
+      },
+      {
+        "title": "todo",
+        "color": "#008000",
+        "textcolor": "#ffffff"
+      }
+    ],
+    "color": "#008000",
+    "textcolor": "#ffffff"
+  },
+  {
+    "title": "Common Tags",
+    "uuid": "e918d3eaa55e437abd670c978b3b8b2d",
+    "children": [
+      {
+        "title": "book",
+        "color": "#008000",
+        "textcolor": "#ffffff"
+      },
+      {
+        "title": "paper",
+        "color": "#008000",
+        "textcolor": "#ffffff"
+      },
+      {
+        "title": "article",
+        "color": "#008000",
+        "textcolor": "#ffffff"
+      }
+    ],
+    "color": "#008000",
+    "textcolor": "#ffffff"
+  },
+  {
+    "title": "Priorities",
+    "uuid": "05a7cde4f420424a82aca58dfb1a2b1b",
+    "children": [
+      {
+        "title": "high",
+        "color": "#ff7537",
+        "textcolor": "#ffffff"
+      },
+      {
+        "title": "medium",
+        "color": "#ffad46",
+        "textcolor": "#ffffff"
+      },
+      {
+        "title": "low",
+        "color": "#7bd148",
+        "textcolor": "#ffffff"
+      }
+    ],
+    "color": "#008000",
+    "textcolor": "#ffffff"
+  },
+  {
+    "title": "Ratings",
+    "uuid": "5b3cea86d8ae44b3bb6e655efb317ed7",
+    "children": [
+      {
+        "title": "1star",
+        "color": "#ffcc24",
+        "textcolor": "#ffffff"
+      },
+      {
+        "title": "2star",
+        "color": "#ffcc24",
+        "textcolor": "#ffffff"
+      },
+      {
+        "title": "3star",
+        "color": "#ffcc24",
+        "textcolor": "#ffffff"
+      },
+      {
+        "title": "4star",
+        "color": "#ffcc24",
+        "textcolor": "#ffffff"
+      },
+      {
+        "title": "5star",
+        "color": "#ffcc24",
+        "textcolor": "#ffffff"
+      }
+    ],
+    "color": "#ffcc24",
+    "textcolor": "#ffffff"
+  }
+]}
