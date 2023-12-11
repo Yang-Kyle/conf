@@ -1,0 +1,8 @@
+Name,Case,Whole Word,Path,Diacritics,Regex,Search,Macro,Key
+"EVERYTHING",0,0,0,0,0,"",,
+"Execution",0,0,0,0,0,"ext:COM;EXE;BAT;CMD;VBS;VBE;JS;JSE;WSF;WSH;MSC","exe",
+"Configuration",0,0,0,0,0,"ext:ini;xml;json;yml;yaml;csv","conf",
+"Script",0,0,0,0,0,"ext:ps1;bash;zsh","sh",
+"Datebase",0,0,0,0,0,"ext:.db;sql;sqlite","db",
+"Book",0,0,0,0,0,"ext:epub;pdf","bk",
+"MarkDown",0,0,0,0,0,"ext:md","md",
