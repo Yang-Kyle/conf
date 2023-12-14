@@ -1,0 +1,31 @@
+{ "appName": "TagSpaces", "appVersion": "5.5.4", "settingsVersion": 3, "tagGroups": [
+  {
+    "title": "Tools",
+    "uuid": "3d9873dd449d4c268ff56e34d0406aec",
+    "children": [
+      {
+        "title": "easy",
+        "color": "#61DD61",
+        "textcolor": "white",
+        "type": "sidecar"
+      },
+      {
+        "title": "hard",
+        "color": "#f83a22ff",
+        "textcolor": "white",
+        "type": "sidecar"
+      },
+      {
+        "title": "toy",
+        "color": "#cd74e6ff",
+        "textcolor": "white",
+        "type": "sidecar"
+      }
+    ],
+    "created_date": 1701406817739,
+    "color": "#61DD61",
+    "textcolor": "white",
+    "modified_date": 1701408559510,
+    "expanded": true
+  }
+]}
