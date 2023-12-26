@@ -1,4 +1,5 @@
 zh.moegirl.org.cn
 aplaybox.com
+~nicovideo
 bilibili.com
 youtube.com
