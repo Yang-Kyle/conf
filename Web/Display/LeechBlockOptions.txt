@@ -1,5 +1,5 @@
 setName1=Ett
-sites1=aplaybox.com bilibili.com youtube.com
+sites1=aplaybox.com bilibili.com youtube.com zh.moegirl.org.cn
 times1=0000-2400
 limitMins1=10
 limitPeriod1=3600
@@ -30,7 +30,7 @@ disable1=false
 showTimer1=true
 allowRefers1=true
 allowKeywords1=true
-sitesURL1=
+sitesURL1=https://raw.githubusercontent.com/Yang-Kyle/Configurations/main/Web/Display/LB_Ett.txt
 regexpBlock1=
 regexpAllow1=
 ignoreHash1=true
