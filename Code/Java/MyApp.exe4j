@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exe4j version="9.0" transformSequenceNumber="3">
+  <directoryPresets config="D:/Project/IDEA/Main/out/production/Main/com/example/StonePuzzle/test" />
+  <application name="MyApp" distributionSourceDir="D:/UsrDir/DeskTop/Output" />
+  <executable name="MyApp" wrapperType="embed" iconSet="true" iconFile="D:/Customization/Icons/SweetParanoia/icons.ico" redirectStderr="false" executableMode="console" />
+  <java mainClass="MyFrameTest" minVersion="1.8.0">
+    <classPath>
+      <archive location="D:/Project/IDEA/Main/out/production/Main/com/example/StonePuzzle/test/MyApp.jar" failOnError="false" />
+    </classPath>
+  </java>
+</exe4j>
