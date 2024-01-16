@@ -1,0 +1,29 @@
+{
+    "Mark.Eraser.eraserReEditing": true,
+    "Pin.Image.OcrTextTypesetting": 0,
+    "Pin.MouseWheelScaleMode": 1,
+    "Pin.maxOpacityMousePenetration": 10,
+    "Save.AutoSave": {
+        "subConf": {
+            "enable": true,
+            "whenConflict": 1
+        },
+        "value": "D:/UsrDir/图片/PiXPinAutoSave/PixPin_$yy.MM.dd-HH:mm:ss$.png"
+    },
+    "Save.QuickSave": {
+        "subConf": {
+            "showNotification": true,
+            "whenConflict": 1
+        },
+        "value": "D:/UsrDir/DeskTop/PixPin_$yy.MM.dd-HH:mm:ss$.png"
+    },
+    "Screenshot.AuxiliaryItem": 13,
+    "Screenshot.ConfirmOnCloseByKey": false,
+    "System.Clipboard.CopyImageAsFile": true,
+    "System.Run After Boot": {
+        "subConf": {
+            "RunAsAdmin": false
+        },
+        "value": true
+    }
+}

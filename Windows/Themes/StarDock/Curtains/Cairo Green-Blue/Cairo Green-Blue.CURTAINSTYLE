@@ -1,0 +1,240 @@
+[Theme]
+ThemeName=Cairo Green-Blue
+ThemeAuthor=Stardock
+ThemeBlurb=Inspired by Microsoft's Fluent UI
+ThemeCreditText=
+ThemeCreditLink=
+
+
+[WindowFrame.Left]
+AutoCreate=0
+Left=0
+Right=0
+Top=0
+Bottom=0
+Image=frame-left.png
+RecolourPartIndex=2
+
+[WindowFrame.Right]
+AutoCreate=0
+Left=0
+Right=0
+Top=0
+Bottom=0
+Image=frame-right.png
+RecolourPartIndex=2
+
+[WindowFrame.Bottom]
+AutoCreate=0
+Left=0
+Right=0
+Top=0
+Bottom=0
+Image=frame-bottom.png
+RecolourPartIndex=2
+
+[WindowFrame.ToolLeft]
+AutoCreate=0
+Left=0
+Right=0
+Top=0
+Bottom=0
+Image=frame-left.png
+RecolourPartIndex=2
+
+[WindowFrame.ToolRight]
+AutoCreate=0
+Left=0
+Right=0
+Top=0
+Bottom=0
+Image=frame-right.png
+RecolourPartIndex=2
+
+[WindowFrame.ToolBottom]
+AutoCreate=0
+Left=0
+Right=0
+Top=0
+Bottom=0
+Image=frame-bottom.png
+RecolourPartIndex=2
+
+[WindowFrame.ToolTop]
+AutoCreate=0
+Image=frame-top.png
+Left=2
+Right=2
+Top=2
+Bottom=2
+RecolourPartIndex=2
+
+
+[Taskbar.Vert]
+Left=2
+Right=2
+Top=0
+Bottom=0
+MinHeight=50
+Image=taskbar-vert.png
+RecolourPartIndex=2
+
+[Wallpapers]
+DefaultWallpaper=desktop-bg.png
+WallpaperCount=1
+Wall1=\desktop-bg.png
+Wall2=\desktop-bg.png
+
+[Colours]
+DefinedAccent=1
+DefineTaskbarMode=1
+DefineAppMode=2
+DefaultAccent=11168582
+DefaultSecondary=10051685
+ForceAccentOnTitlebars=1
+DefaultColour=1
+SecondaryColourDescription=5
+BlockTaskbarModeChange=1
+
+[Taskbar.Horz]
+Left=10
+ Right=10
+ Top=1
+ Bottom=0
+ MinHeight=0
+ Image=taskbar-horiz.png
+ForceTrans=1
+RecolourPartIndex=2
+
+[Taskbar.Horz.2]
+Left=0
+Right=0
+Top=0
+Bottom=0
+MinHeight=0
+
+[Taskbar.StartButton]
+Left=0
+Right=0
+Top=0
+Bottom=0
+MinHeight=0
+Image=start-button.png
+RecolourPartIndex=0
+
+[Taskbar.Button]
+Left=6
+Right=6
+Top=6
+Bottom=6
+MinHeight=0
+Image=taskbar-button.png
+RecolourPartIndex=2
+
+[Shadows]
+CustomShadows=1
+OwnShadows=0
+
+[Shadow.Data]
+ActiveAlpha=255
+ActiveBlur=30
+ActiveBlurExtra=10
+ActiveTop=10
+ActiveBottom=30
+ActiveLeft=15
+ActiveRight=15
+InactiveAlpha=55
+InactiveBlur=14
+InactiveLeft=10
+InactiveRight=10
+InactiveTop=5
+InactiveBottom=15
+InactiveColour=0
+InactiveBlurExtra=2
+ActiveColour=0
+
+[Shadow.Left]
+Image=fluent green-blue_CustomLeft.png
+Top=41
+Bottom=28
+
+[Shadow.Right]
+Image=fluent green-blue_CustomRight.png
+Top=41
+Bottom=28
+
+[Shadow.Top]
+Image=fluent green-blue_CustomTop.png
+Left=66
+Right=66
+
+[Shadow.Bottom]
+Image=fluent green-blue_CustomBottom.png
+Left=66
+Right=66
+
+[Taskbar.Button.2]
+Left=0
+Right=0
+Top=0
+Bottom=0
+MinHeight=0
+
+ 
+[Window.Fill]
+image=window-fill.png
+RecolourPartIndex=2
+
+[WindowFrame.Top.1]
+[WindowFrame.LeftNoShadow]
+RecolourPartIndex=2
+[WindowFrame.RightNoShadow]
+RecolourPartIndex=2
+[WindowFrame.TopNoShadow]
+RecolourPartIndex=2
+[WindowFrame.BottomNoShadow]
+RecolourPartIndex=2
+[WindowFrame.TopNoShadow2]
+RecolourPartIndex=2
+[WindowFrame.BottomNoShadow2]
+RecolourPartIndex=2
+[Taskbar.Horz.Light]
+RecolourPartIndex=2
+[Taskbar.Vert.Light]
+RecolourPartIndex=2
+[Taskbar.StartButton.Light]
+RecolourPartIndex=2
+[Taskbar.Button.Light]
+RecolourPartIndex=2
+[Start10.MenuBackground]
+Left=2
+ Right=2
+ Top=2
+ Bottom=2
+ MinHeight=0
+ Image=start-menu-bg.png
+ DisableStart10Blur=1
+RecolourPartIndex=2
+[WindowFrame.Top]
+Left=2
+ Right=2
+ Top=2
+ Bottom=2
+ Image=frame-top.png
+ TitlebarPaintUnder=0
+ ForceDpiScale=0
+ TextShadowX=0
+ TextShadowY=0
+ TextShadowAlpha=0
+ TextShadowBlur=0
+ NoShadowText=1
+ TextColourR=255
+ TextColourG=255
+ TextColourB=255
+ InactiveTextColourR=140
+ InactiveTextColourG=140
+ InactiveTextColourB=140
+ ForceTextColour=1
+ TextMiddle=1
+ RecolourPartIndex=2
+ RemapTitleButtons=2
