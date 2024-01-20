@@ -1,9 +1,0 @@
-#src standard
-#dst 标准
-#end
-#src boost edition
-#dst boost 版本
-#end
-#src GHz edition
-#dst GHz 版本
-#end
