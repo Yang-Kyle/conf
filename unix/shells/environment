@@ -1,0 +1,5 @@
+TOOL="/home/yng/code"
+DOTNET_ROOT="/home/yng/.dotnet"
+PATH="/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:/snap/bin:/usr/games:/usr/local/games:/home/young/.conda/envs/main:$TOOL/python/anaconda3/lib/python3.12/site-packages:$TOOL/JS/node/bin:/$TOOL/Android/sdk/platform-tools:$DOTNET_ROOT:$DOTNET_ROOT/tools"
+PATH_CLASS="BASE_PATH + PY + JS + JAVA + CS"
+EDITOR="nvim"
