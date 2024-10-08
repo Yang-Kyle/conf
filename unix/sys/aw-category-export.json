@@ -1,0 +1,134 @@
+{
+  "categories": [
+    {
+      "name": [
+        "system"
+      ],
+      "rule": {
+        "type": "regex",
+        "regex": "Floorp|nemo",
+        "ignore_case": true
+      },
+      "id": 0,
+      "data": {
+        "color": "#68BC00"
+      }
+    },
+    {
+      "name": [
+        "game"
+      ],
+      "rule": {
+        "type": "regex",
+        "regex": "Steam|AntiMicroX|PrismLauncher",
+        "ignore_case": true
+      },
+      "id": 1,
+      "data": {
+        "color": "#7B64FF"
+      }
+    },
+    {
+      "name": [
+        "social"
+      ],
+      "rule": {
+        "type": "regex",
+        "regex": "Discord|Telegram|QQ|WeChat",
+        "ignore_case": true
+      },
+      "id": 2,
+      "data": {
+        "color": "#E27300"
+      }
+    },
+    {
+      "name": [
+        "ett"
+      ],
+      "rule": {
+        "type": "regex",
+        "regex": "FILL ME",
+        "ignore_case": true
+      },
+      "id": 3,
+      "data": {
+        "color": "#AEA1FF"
+      }
+    },
+    {
+      "name": [
+        "ett",
+        "audio"
+      ],
+      "rule": {
+        "type": "regex",
+        "regex": "LMMS|FamiStudio|OpenUtau",
+        "ignore_case": true
+      },
+      "id": 4,
+      "data": {
+        "color": "#FDA1FF"
+      }
+    },
+    {
+      "name": [
+        "ett",
+        "graphic"
+      ],
+      "rule": {
+        "type": "regex",
+        "regex": "GIMP",
+        "ignore_case": true
+      },
+      "id": 5,
+      "data": {
+        "color": "#FA28FF"
+      }
+    },
+    {
+      "name": [
+        "ett",
+        "video"
+      ],
+      "rule": {
+        "type": "regex",
+        "regex": "Kdenlive",
+        "ignore_case": true
+      },
+      "id": 6,
+      "data": {
+        "color": "#AB149E"
+      }
+    },
+    {
+      "name": [
+        "code"
+      ],
+      "rule": {
+        "type": "regex",
+        "regex": "VSCode|Sublime|SmartGit|KiCad",
+        "ignore_case": true
+      },
+      "id": 7,
+      "data": {
+        "color": "#73D8FF"
+      }
+    },
+    {
+      "name": [
+        "code",
+        "game_dev"
+      ],
+      "rule": {
+        "type": "regex",
+        "regex": "RenPy|MotaJS",
+        "ignore_case": true
+      },
+      "id": 8,
+      "data": {
+        "color": "#009CE0"
+      }
+    }
+  ]
+}
