@@ -47,7 +47,7 @@ if [ ! -e "$HOME/.sudo_as_admin_successful" ] && [ ! -e "$HOME/.hushlogin" ] ; t
 	cat <<-EOF
 	To run a command as administrator (user "root"), use "sudo <command>".
 	See "man sudo_root" for details.
-	
+
 	EOF
     fi
     esac
@@ -73,6 +73,7 @@ alias hibernate='sudo systemctl hibernate'
 alias wgu='sudo wg-quick up'
 alias wgd='sudo wg-quick down'
 alias conda-py='/home/yng/code/python/anaconda3/bin/python3'
+source /etc/environment
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="/home/yng/.sdkman"
 [[ -s "/home/yng/.sdkman/bin/sdkman-init.sh" ]] && source "/home/yng/.sdkman/bin/sdkman-init.sh"
@@ -91,4 +92,3 @@ else
 fi
 unset __conda_setup
 # <<< conda initialize <<<
-
