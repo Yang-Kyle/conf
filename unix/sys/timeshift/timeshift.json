@@ -19,21 +19,21 @@
   "date_format" : "%y.%m.%d_%H:%M:%S",
   "exclude" : [
     "+ /home/root/**",
-    "+ /home/yng/**",
-    "+ /home/young/**",
-    "+ /boot/***",
-    "+ /etc/***",
-    "+ /usr/***",
-    "+ /var/***",
-    "+ /root/***",
-    "+ /lost+found/***",
     "/home/*/.cache/***",
     "/home/*/.local/share/Trash/***",
     "/home/*/.steam/***",
     "/home/young/application/***",
     "/home/young/game/***",
+    "+ /home/young/**",
     "/home/yng/code/***",
-    "/home/yng/ett/***"
+    "/home/yng/ett/***",
+    "+ /home/yng/**",
+    "+ /boot/***",
+    "+ /etc/***",
+    "+ /usr/***",
+    "+ /var/***",
+    "+ /root/***",
+    "+ /lost+found/***"
   ],
   "exclude-apps" : []
 }
